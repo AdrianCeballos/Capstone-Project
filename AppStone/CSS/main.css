@@ -1,0 +1,151 @@
+body {
+	
+background: url(http://wallpapercave.com/wp/2T3qqti.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ 
+
+.uppercase {
+	font-size: 30px;
+	color: yellow;
+}
+h1{
+	
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+	margin-left: 300px ;
+	margin-right: 300px;
+}
+img{
+	width: 500px;
+	height: auto;
+}
+article{
+	text-align: center;
+
+} 
+h2 {
+color: firebrick;
+}
+article p {
+	color: firebrick ;
+	width: 400px;
+}
+.largertextsize {
+	font-size: 20px;
+	margin-bottom: 0px;
+	color: red
+;
+	text-align: center;
+}
+nav a {
+	color: red;
+}
+#Paragraph-2{
+	font-size: 20px;
+	}
+.container {
+	width: 1366px;
+	height: 667px;
+}
+
+@media (max-width:1366px){
+	.container {
+		width: 100%;
+	}
+	
+	}
+	body {
+		width: 100%;
+	}
+	
+	}
+}
+@media  (max-width:1366px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+    .uppercase {width: 50%;
+        text-align: center; 
+        margin-left:80px; 
+
+        }
+        .col-xs-2 {
+        	background-color: transparent;
+        }
+        .list-group-item {
+        	background-color: transparent;
+        }
+        #Paragraph-2 {
+        	color: firebrick;
+        }
+.row {
+	text-align: center;
+
+    }
+    .container {
+    	text-align: center;
+    }
+}
+}
+@media  (max-width: 750px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+        .uppercase {width: 50%;
+        text-align: center; 
+        margin-left:80px; 
+
+        }
+        .col-xs-2 {
+        	background-color: transparent;
+        }
+        .list-group-item {
+        	background-color: transparent;
+        }
+        #Paragraph-2 {
+        	color: firebrick;
+        }
+.row {
+	text-align: center;
+
+    }
+    .container {
+    	text-align: center;
+    }
+}
+    }
+@media (max-width: 320px) { /* screen size until 500px */
+    body {
+        font-size: 1.5em; /* 0.8x default size */
+        }
+       
+        .uppercase {width: 50%;
+        text-align: center; 
+        margin-left:80px; 
+
+        }
+        .col-xs-2 {
+        	background-color: transparent;
+        }
+        .list-group-item {
+        	background-color: transparent;
+        }
+        #Paragraph-2 {
+        	color: firebrick;
+        }
+.row {
+	text-align: center;
+
+    }
+    .container {
+    	text-align: center;
+    }
+  
+}
